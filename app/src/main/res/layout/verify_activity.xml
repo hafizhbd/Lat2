@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+
+
+
+    tools:context=".VerifyActivity" >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="163dp"
+        android:text="@string/vya"
+        android:textColor="@color/putih"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+
+        android:layout_marginTop="198dp"
+        android:text="@string/we_have_send_verification_code_to_your_email"
+        android:textColor="@color/putih" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="291dp"
+        android:autofillHints=""
+        android:gravity="center"
+        android:backgroundTint="@color/putih"
+        android:ems="10"
+        android:hint="@string/enter_verification_code_here"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/putih"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="328dp"
+        android:background="@drawable/tombol"
+        android:text="@string/send"
+        android:textColor="@color/putih" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="291dp"
+        android:text="@string/doesn_t_get_the_code"
+        android:textColor="@color/putih" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="291dp"
+        android:text="@string/resend"
+        android:textColor="@color/putih" />
+
+
+</RelativeLayout>
